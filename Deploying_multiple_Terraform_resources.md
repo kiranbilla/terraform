@@ -144,14 +144,11 @@ Example Bash Script
 sh
 
 #!/bin/bash
-
-# Initialize the configuration
+#Initialize the configuration
 terraform init
-
-# Plan the deployment
+#Plan the deployment
 terraform plan -out=tfplan
-
-# Apply the deployment
+#Apply the deployment
 terraform apply -auto-approve tfplan
 
 Conclusion
